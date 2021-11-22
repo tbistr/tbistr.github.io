@@ -1,4 +1,4 @@
-baseURL: "https://tbistr.github.io/blog/"
+baseURL: "https://tbistr.github.io/"
 title: Tbistr blog
 paginate: 5
 theme: github.com/adityatelange/hugo-PaperMod
@@ -104,7 +104,7 @@ params:
           url: "https://twitter.com/tbistr99"
 
     editPost:
-        URL: "https://github.com/tbistr/blog/content"
+        URL: "https://github.com/tbistr/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
