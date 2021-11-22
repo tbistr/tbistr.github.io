@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tbistr.github.io/blog/posts/</loc>
+    <loc>https://tbistr.github.io/posts/</loc>
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/blog/</loc>
+    <loc>https://tbistr.github.io/</loc>
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/blog/posts/about_me/</loc>
+    <loc>https://tbistr.github.io/posts/about_me/</loc>
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/blog/archives/</loc>
+    <loc>https://tbistr.github.io/archives/</loc>
   </url><url>
-    <loc>https://tbistr.github.io/blog/categories/</loc>
+    <loc>https://tbistr.github.io/categories/</loc>
   </url><url>
-    <loc>https://tbistr.github.io/blog/search/</loc>
+    <loc>https://tbistr.github.io/search/</loc>
   </url><url>
-    <loc>https://tbistr.github.io/blog/series/</loc>
+    <loc>https://tbistr.github.io/series/</loc>
   </url><url>
-    <loc>https://tbistr.github.io/blog/tags/</loc>
+    <loc>https://tbistr.github.io/tags/</loc>
   </url>
 </urlset>

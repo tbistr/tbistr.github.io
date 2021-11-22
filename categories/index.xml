@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Tbistr blog</title>
-    <link>https://tbistr.github.io/blog/categories/</link>
+    <link>https://tbistr.github.io/categories/</link>
     <description>Recent content in Categories on Tbistr blog</description>
     <image>
       <url>https://tbistr.github.io/images/funny_face.jpg</url>
       <link>https://tbistr.github.io/images/funny_face.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tbistr.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tbistr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
