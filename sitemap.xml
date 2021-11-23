@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tbistr.github.io/tags/github/</loc>
+    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/tags/hugo/</loc>
+    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/tech/hugo_hands_on/</loc>
+    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
+  </url><url>
     <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2021-11-23T05:13:12+09:00</lastmod>
+    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/tags/</loc>
+    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/</loc>
-    <lastmod>2021-11-23T05:13:12+09:00</lastmod>
+    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/about_me/</loc>
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
@@ -18,7 +30,5 @@
     <loc>https://tbistr.github.io/search/</loc>
   </url><url>
     <loc>https://tbistr.github.io/series/</loc>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/</loc>
   </url>
 </urlset>
