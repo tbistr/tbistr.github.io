@@ -9,6 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+googleAnalytics: G-5JG1SFWT3X
 
 minify:
     disableXML: true
@@ -22,18 +23,18 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Archive
+                - name: Archives
                   url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
+                  weight: 1
                 - name: Tags
                   url: tags/
-                  weight: 10
+                  weight: 2
                 - name: Categories
                   url: categories/
-                  weight: 10
+                  weight: 3
+                - name: Search
+                  url: search/
+                  weight: 4
 
     # en:
     #     languageName: "English"
