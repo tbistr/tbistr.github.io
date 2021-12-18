@@ -9,7 +9,16 @@
       <link>https://tbistr.github.io/images/funny_face.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Nov 2021 09:09:26 +0900</lastBuildDate><atom:link href="https://tbistr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 17:01:15 +0900</lastBuildDate><atom:link href="https://tbistr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vagrantでデスクトップ環境はいらないけど、GUIアプリを使いたい</title>
+      <link>https://tbistr.github.io/posts/tech/vagrant_x11/</link>
+      <pubDate>Sat, 18 Dec 2021 17:01:15 +0900</pubDate>
+      
+      <guid>https://tbistr.github.io/posts/tech/vagrant_x11/</guid>
+      <description>x11 clientをVagrantで立てたubuntu VMに設定し、windows上のx11 serverで描画させます。</description>
+    </item>
+    
     <item>
       <title>hugoお試ししてみた。</title>
       <link>https://tbistr.github.io/posts/tech/hugo_hands_on/</link>
