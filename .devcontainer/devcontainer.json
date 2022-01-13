@@ -1,0 +1,10 @@
+{
+    "name": "hugo",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "yzhang.markdown-all-in-one"
+    ],
+    "remoteUser": "vscode",
+}
