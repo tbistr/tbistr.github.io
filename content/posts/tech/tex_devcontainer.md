@@ -1,6 +1,6 @@
 ---
-title: ""
-description: ""
+title: "texlive2021の最強環境を作ったよ"
+description: "texlive2-21のdockerイメージを作成し、devcontainerとして使えるようにしました。"
 author: "tbistr"
 date: 2022-01-14T05:20:52Z
 
