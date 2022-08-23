@@ -9,7 +9,21 @@
       <link>https://tbistr.github.io/images/funny_face.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 14 Jan 2022 05:20:52 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 12:10:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DockerComposeで環境変数のエイリアスを作りたい</title>
+      <link>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</link>
+      <pubDate>Tue, 23 Aug 2022 12:10:26 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</guid>
+      <description>経緯 相変わらずDocker上のMySQLをいじっている。
+MySQLサーバに対して、毎回コンテナに入ってmysqlプロンプトを出してコマンドを打つのがめんどくさいので、webベースのGUIサーバを追加することにした。 このとき、.envで指定しているMySQL用のユーザ情報について、同じ値を別の名前で環境変数として指定する必要があった。
+環境 docker-composeファイルは以下の通り。
+version: &amp;#39;3.8&amp;#39; services: db: container_name: db image: mysql:8.0 environment: - LANG=ja_JP.UTF-8 tty: true volumes: - type: volume source: test_volume target: /var/lib/mysql networks: - test_network volumes: test_volume: name: test_volume networks: test_network: external: true .envはこの内容。
+MYSQL_DATABASE=test_database MYSQL_USER=test_user MYSQL_PASSWORD=password MYSQL_ROOT_PASSWORD=root_password 課題 今の環境に、phpmyadminというMySQLのGUIツールを新しいサービスとして導入する。 具体的に以下の内容を追加したい。
+db-gui: container_name: db-gui image: phpmyadmin/phpmyadmin environment: - LANG=ja_JP.UTF-8 tty: true ports: - 8080:80 depends_on: - db networks: - test_network このとき、phpmyadminコンテナには環境変数PMA_HOSTS, PMA_USER, PMA_PASSWORDを渡して接続先と認証の情報を教える必要がある。 しかし、PMA_HOSTSはサービス名(db)を直書きすれば良いとして(networkが設定されてるので、サービス名←→アドレスができる)、他の2つの値は.envのMYSQL_USER, MYSQL_PASSWORDと同一である。</description>
+    </item>
+    
     <item>
       <title>texlive2021の最強環境を作ったよ</title>
       <link>https://tbistr.github.io/posts/tech/tex_devcontainer/</link>

@@ -9,7 +9,16 @@
       <link>https://tbistr.github.io/images/funny_face.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Aug 2022 13:48:10 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 12:10:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://tbistr.github.io/tags/docker/</link>
+      <pubDate>Tue, 23 Aug 2022 12:10:26 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>mysql</title>
       <link>https://tbistr.github.io/tags/mysql/</link>
@@ -34,15 +43,6 @@
       <pubDate>Fri, 14 Jan 2022 05:20:52 +0000</pubDate>
       
       <guid>https://tbistr.github.io/tags/devcontainer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://tbistr.github.io/tags/docker/</link>
-      <pubDate>Fri, 14 Jan 2022 05:20:52 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
