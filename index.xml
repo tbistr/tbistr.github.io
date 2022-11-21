@@ -9,7 +9,24 @@
       <link>https://tbistr.github.io/images/funny_face.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Aug 2022 12:10:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 04:49:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go言語で独自エラーを実装するときの実例(ライブラリ編)</title>
+      <link>https://tbistr.github.io/posts/tech/golang_error_impl/</link>
+      <pubDate>Mon, 21 Nov 2022 04:49:26 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/posts/tech/golang_error_impl/</guid>
+      <description>概要 Golangのライブラリを作ったとき、呼び出し元でどのようにエラーハンドリングするか想像して実装することが出来ていますか? この記事では、minimamなサンプルを提示し、Goでの独自エラー実装について紹介します。
+TODO: Asについては、僕がユースケースを理解できていないので書いていません。
+前提 Goの文法は分かっているということを仮定します。
+ライブラリ利用者側から見たGoのエラー処理について ご存知の通り、Goには高級?なエラー処理機構がありません。 関数が正常に終了したかどうかは、if文によって判定します。
+func someFunc() error {...} err := someFunc() if err != nil { // 何か処理 } また、errorインターフェースの定義は以下のようになっていて、.Error()によって出力する文字列を作成できれば、どんなものでもerror型として扱うことが出来ます。
+type error interface{ Error() string } そのため、ライブラリ作成者には独自エラーの構造体に対して、Error() stringを実装することが要求されます。
+type myError struct{ // some member } func (err *myError) Error() string{ return &amp;#34;&amp;#34; } Unwrapの利用 上記のような独自エラーには、エラーが起こった原因となるエラーが何か判別出来ないという欠点がありました。 (正確には、判別のための標準的なインターフェースがなかった。)
+Go1.13以降、エラー原因の特定インターフェースとして、errors.Unwrap(err) errorという関数が使えます。 これによって、ライブラリ使用者はエラーを引き起こしたエラーを取得することが出来ます。
+err := someFunc() if err != nil { inner := errors.Unwrap(err) fmt.Printf(&amp;#34;内部エラーはこれ: %v&amp;#34;, inner) } Isの利用 エラー原因特定のユースケースとして、エラー種別によって処理を分けるというケースがあります。 このとき、エラーの原因の原因の原因&amp;hellip;のようにエラーが連鎖的にwrapされている場合、あるエラーと、その原因となったエラーの種別が同じものかを判定する必要があります。</description>
+    </item>
+    
     <item>
       <title>DockerComposeで環境変数のエイリアスを作りたい</title>
       <link>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</link>

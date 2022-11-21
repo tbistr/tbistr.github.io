@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tbistr.github.io/tags/golang/</loc>
+    <lastmod>2022-11-21T04:49:26+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/tech/golang_error_impl/</loc>
+    <lastmod>2022-11-21T04:49:26+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/</loc>
+    <lastmod>2022-11-21T04:49:26+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/tags/</loc>
+    <lastmod>2022-11-21T04:49:26+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/</loc>
+    <lastmod>2022-11-21T04:49:26+00:00</lastmod>
+  </url><url>
     <loc>https://tbistr.github.io/tags/docker/</loc>
     <lastmod>2022-08-23T12:10:26+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</loc>
-    <lastmod>2022-08-23T12:10:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2022-08-23T12:10:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/</loc>
-    <lastmod>2022-08-23T12:10:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/</loc>
     <lastmod>2022-08-23T12:10:26+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/tags/mysql/</loc>
