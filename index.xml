@@ -5,11 +5,21 @@
     <link>https://tbistr.github.io/</link>
     <description>Recent content on Tbistr blog</description>
     <image>
+      <title>Tbistr blog</title>
       <url>https://tbistr.github.io/images/funny_face.jpg</url>
       <link>https://tbistr.github.io/images/funny_face.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Nov 2022 04:49:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 21:04:34 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Type aliasの使い所を提案</title>
+      <link>https://tbistr.github.io/posts/tech/golang_typealias/</link>
+      <pubDate>Mon, 06 Mar 2023 21:04:34 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/posts/tech/golang_typealias/</guid>
+      <description>Go言語の謎機能である、Type aliasの使い所を説明</description>
+    </item>
+    
     <item>
       <title>Go言語で独自エラーを実装するときの実例(ライブラリ編)</title>
       <link>https://tbistr.github.io/posts/tech/golang_error_impl/</link>
