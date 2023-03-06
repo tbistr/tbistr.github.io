@@ -84,7 +84,7 @@ func Task(doc pig.Node) []*model.Task {
 }
 
 // /task.go
-func Task(doc pig.Node) []*model.Task {
+func (c *Client) Task() []*model.Task {
     tasks := []*model.Task{}
     // 通信してページを取得
     tasks = parse.Task(doc)
@@ -108,7 +108,7 @@ func Task(doc pig.Node) []*model.Task {
 
 type Task = model.Task
 
-func Task(doc pig.Node) []*Task {
+func (c *Client) Task() []*Task {
     tasks := []*Task{}
     // 通信してページを取得
     tasks = parse.Task(doc)
