@@ -3,12 +3,16 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "extensions": [
-        "yzhang.markdown-all-in-one",
-        "DavidAnson.vscode-markdownlint"
-    ],
-    "settings": {
-        "terminal.integrated.defaultProfile.linux": "fish"
-    },
     "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "yzhang.markdown-all-in-one",
+                "DavidAnson.vscode-markdownlint"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "fish"
+            }
+        }
+    }
 }

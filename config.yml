@@ -1,6 +1,6 @@
 baseURL: "https://tbistr.github.io/"
 title: Tbistr blog
-paginate: 5
+paginate: 10
 theme: github.com/adityatelange/hugo-PaperMod
 
 enableInlineShortcodes: true
@@ -102,7 +102,7 @@ params:
         - name: github
           url: "https://github.com/tbistr"
         - name: twitter
-          url: "https://twitter.com/tbistr99"
+          url: "https://twitter.com/jack007xx"
 
     editPost:
         URL: "https://github.com/tbistr/content"
