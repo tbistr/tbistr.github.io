@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tbistr.github.io/tags/golang/</loc>
-    <lastmod>2023-03-06T21:04:34+00:00</lastmod>
+    <loc>https://tbistr.github.io/tags/linux/</loc>
+    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/tech/linux_short_course/</loc>
+    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2023-03-06T21:04:34+00:00</lastmod>
+    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/tags/</loc>
-    <lastmod>2023-03-06T21:04:34+00:00</lastmod>
+    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/</loc>
+    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/tags/golang/</loc>
     <lastmod>2023-03-06T21:04:34+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/tech/golang_typealias/</loc>
@@ -46,9 +52,6 @@
   </url><url>
     <loc>https://tbistr.github.io/posts/tech/tex_devcontainer/</loc>
     <lastmod>2022-01-14T05:20:52+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/linux/</loc>
-    <lastmod>2021-12-18T17:01:15+09:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/tags/vagrant/</loc>
     <lastmod>2021-12-18T17:01:15+09:00</lastmod>
