@@ -15,7 +15,6 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-    
 defaultContentLanguage: ja
 languages:
     ja:
@@ -76,7 +75,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
-    images: ["/images/funny_face.jpg"]
+    images: ["/images/coara.jpg"]
 
     # profileMode:
     #     enabled: false
@@ -94,9 +93,9 @@ params:
     homeInfoParams:
         Title: "Tbistr"
         Content: >
-          名古屋大学情報学研究科の院生です。
+            名古屋大学情報学研究科の院生です。
 
-          - 個人的な記録、メモを載せます。
+            - 個人的な記録、メモを載せます。
 
     socialIcons:
         - name: github
