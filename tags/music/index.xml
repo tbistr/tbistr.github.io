@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>music on Tbistr blog</title>
+    <link>https://tbistr.github.io/tags/music/</link>
+    <description>Recent content in music on Tbistr blog</description>
+    <image>
+      <title>Tbistr blog</title>
+      <url>https://tbistr.github.io/images/coara.jpg</url>
+      <link>https://tbistr.github.io/images/coara.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Jun 2023 23:26:39 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年上半期に聞いてよかった曲</title>
+      <link>https://tbistr.github.io/posts/music/2023h1-my-best-hits/</link>
+      <pubDate>Mon, 05 Jun 2023 23:26:39 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/posts/music/2023h1-my-best-hits/</guid>
+      <description>2023年上半期で、良かった曲を紹介します。知ってる情報は簡単に補足してます。</description>
+    </item>
+    
+  </channel>
+</rss>
