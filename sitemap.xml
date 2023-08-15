@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tbistr.github.io/categories/bubbletea/</loc>
+    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/categories/</loc>
+    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/categories/golang/</loc>
+    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/</loc>
+    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/</loc>
+    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/tech/introduce_bubbletea/</loc>
+    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
+  </url><url>
     <loc>https://tbistr.github.io/tags/linux/</loc>
     <lastmod>2023-06-16T07:05:41+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/tech/linux_short_course/</loc>
     <lastmod>2023-06-16T07:05:41+00:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
-  </url><url>
     <loc>https://tbistr.github.io/tags/</loc>
-    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/</loc>
     <lastmod>2023-06-16T07:05:41+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/music/2023h1-my-best-hits/</loc>
@@ -78,8 +90,6 @@
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/archives/</loc>
-  </url><url>
-    <loc>https://tbistr.github.io/categories/</loc>
   </url><url>
     <loc>https://tbistr.github.io/search/</loc>
   </url><url>
