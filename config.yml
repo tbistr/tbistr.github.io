@@ -101,7 +101,7 @@ params:
         - name: github
           url: "https://github.com/tbistr"
         - name: twitter
-          url: "https://twitter.com/jack007xx"
+          url: "https://twitter.com/tbistr99"
 
     editPost:
         URL: "https://github.com/tbistr/content"
