@@ -10,11 +10,11 @@
       <link>https://tbistr.github.io/images/coara.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Aug 2023 20:58:51 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Oct 2023 14:53:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bubbletea</title>
       <link>https://tbistr.github.io/categories/bubbletea/</link>
-      <pubDate>Mon, 14 Aug 2023 20:58:51 +0000</pubDate>
+      <pubDate>Sun, 15 Oct 2023 14:53:26 +0000</pubDate>
       
       <guid>https://tbistr.github.io/categories/bubbletea/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>golang</title>
       <link>https://tbistr.github.io/categories/golang/</link>
-      <pubDate>Mon, 14 Aug 2023 20:58:51 +0000</pubDate>
+      <pubDate>Sun, 15 Oct 2023 14:53:26 +0000</pubDate>
       
       <guid>https://tbistr.github.io/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lipgloss</title>
+      <link>https://tbistr.github.io/categories/lipgloss/</link>
+      <pubDate>Sun, 15 Oct 2023 14:53:26 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/categories/lipgloss/</guid>
       <description></description>
     </item>
     

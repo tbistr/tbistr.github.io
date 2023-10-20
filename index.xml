@@ -10,7 +10,28 @@
       <link>https://tbistr.github.io/images/coara.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Aug 2023 20:58:51 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Oct 2023 14:53:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>リッチなターミナル描画を実現！ Lip Glossのススメ(ざっくりできること編)</title>
+      <link>https://tbistr.github.io/posts/tech/introduce_lipgloss/</link>
+      <pubDate>Sun, 15 Oct 2023 14:53:26 +0000</pubDate>
+      
+      <guid>https://tbistr.github.io/posts/tech/introduce_lipgloss/</guid>
+      <description>この記事では、Lip Glossでできること、その方法をざっくり紹介します。
+Lip Gloss(lipgloss) とは Lip Glossは、Goで書かれたTUI用のスタイリングライブラリです。 以下のような装飾をターミナルのテキストに適用できます。
+Lip GlossのGitHubリポジトリより引用
+以下のような項目のスタイリングに対応しています。
+文字色 背景色 文字寄せ 文字囲み 特定幅での折返し などなど&amp;hellip; 以前紹介したBubble Teaを提供しているCharmというチームが開発しています。 そのため、Bubble Teaを用いたTUIアプリのスタイリングに凝りたい場合、Lip Glossが第一候補になります。
+うまく使いこなすと、こんな感じのアプリを作れます。 (GitHubのリポジトリを検索するTUIアプリ)
+Lip Glossの各機能の紹介 できることと、そのコード例をセットで紹介します。
+Style型 Style型はlipglossのメインの型です。 メソッドチェインでスタイルを設定します。 Renderメソッドを呼び出すと、渡した文字列にスタイルが適用されます。
+(各スタイルについては後述します)
+fmt.Println(&amp;#34;# lipglossでは、style型を使って文字列を装飾します&amp;#34;) var style = lipgloss.NewStyle(). Bold(true). Italic(true). Foreground(lipgloss.Color(&amp;#34;#0079FF&amp;#34;)). Background(lipgloss.Color(&amp;#34;#F6FA70&amp;#34;)). Width(40). Align(lipgloss.Center) fmt.Println(&amp;#34;## style型のRenderメソッドに文字列を渡すと、装飾された文字列が返ります&amp;#34;) fmt.Println(style.Render(&amp;#34;Hello, lipgloss!&amp;#34;)) 結果はこのようになります。
+文字、背景色の設定 Color型はlipglossで色を表現する型です。 Style型のForegroundメソッド、Backgroundメソッドに渡すことで、文字色、背景色を設定できます。
+基本的にはカラーコードで指定するとエディタのハイライトが効いたりと便利ですが、ANSIの4bit, 8bitカラーも使えます。
+fmt.Println(&amp;#34;# lipglossを使って文字、背景に色をつけることができます&amp;#34;) fmt.Println(&amp;#34;## Color型を使って色を作成できます&amp;#34;) blue := lipgloss.Color(&amp;#34;#0079FF&amp;#34;) // 24bitカラー以外にも、4bit, 8bitのカラーも使えます // lipgloss.Color(&amp;#34;5&amp;#34;) fmt.Println(&amp;#34;## style型のForeground, Backgroundメソッドには、Color型で色を指定します&amp;#34;) fmt.Println( lipgloss.</description>
+    </item>
+    
     <item>
       <title>簡単にTUIが作れる！Bubble Teaのススメ(アーキテクチャ編)</title>
       <link>https://tbistr.github.io/posts/tech/introduce_bubbletea/</link>
