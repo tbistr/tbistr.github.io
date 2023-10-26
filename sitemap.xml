@@ -2,100 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tbistr.github.io/categories/bubbletea/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/categories/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/categories/golang/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/categories/lipgloss/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/introduce_lipgloss/</loc>
-    <lastmod>2023-10-15T14:53:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/introduce_bubbletea/</loc>
-    <lastmod>2023-08-14T20:58:51+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/linux/</loc>
-    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/linux_short_course/</loc>
-    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/</loc>
-    <lastmod>2023-06-16T07:05:41+00:00</lastmod>
-  </url><url>
     <loc>https://tbistr.github.io/posts/music/2023h1-my-best-hits/</loc>
     <lastmod>2023-06-05T23:26:39+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/tags/music/</loc>
     <lastmod>2023-06-05T23:26:39+00:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/tags/golang/</loc>
-    <lastmod>2023-03-06T21:04:34+00:00</lastmod>
+    <loc>https://tbistr.github.io/posts/</loc>
+    <lastmod>2023-06-05T23:26:39+00:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/posts/tech/golang_typealias/</loc>
-    <lastmod>2023-03-06T21:04:34+00:00</lastmod>
+    <loc>https://tbistr.github.io/tags/</loc>
+    <lastmod>2023-06-05T23:26:39+00:00</lastmod>
   </url><url>
-    <loc>https://tbistr.github.io/posts/tech/golang_error_impl/</loc>
-    <lastmod>2022-11-21T04:49:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/docker/</loc>
-    <lastmod>2022-08-23T12:10:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</loc>
-    <lastmod>2022-08-23T12:10:26+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/mysql/</loc>
-    <lastmod>2022-08-19T13:48:10+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/mysql_tutorial/</loc>
-    <lastmod>2022-08-19T13:48:10+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/virtualbox/</loc>
-    <lastmod>2022-04-26T07:35:27+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/vb_usb_bug/</loc>
-    <lastmod>2022-04-26T07:35:27+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/devcontainer/</loc>
-    <lastmod>2022-01-14T05:20:52+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/tex/</loc>
-    <lastmod>2022-01-14T05:20:52+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/tex_devcontainer/</loc>
-    <lastmod>2022-01-14T05:20:52+00:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/vagrant/</loc>
-    <lastmod>2021-12-18T17:01:15+09:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/vagrant_x11/</loc>
-    <lastmod>2021-12-18T17:01:15+09:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/github/</loc>
-    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/tags/hugo/</loc>
-    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
-  </url><url>
-    <loc>https://tbistr.github.io/posts/tech/hugo_hands_on/</loc>
-    <lastmod>2021-11-23T09:09:26+09:00</lastmod>
+    <loc>https://tbistr.github.io/</loc>
+    <lastmod>2023-06-05T23:26:39+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/about_me/</loc>
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/archives/</loc>
+  </url><url>
+    <loc>https://tbistr.github.io/categories/</loc>
   </url><url>
     <loc>https://tbistr.github.io/search/</loc>
   </url><url>

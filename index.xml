@@ -10,46 +10,7 @@
       <link>https://tbistr.github.io/images/coara.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 Oct 2023 14:53:26 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>リッチなターミナル描画を実現！ Lip Glossのススメ(ざっくりできること編)</title>
-      <link>https://tbistr.github.io/posts/tech/introduce_lipgloss/</link>
-      <pubDate>Sun, 15 Oct 2023 14:53:26 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/introduce_lipgloss/</guid>
-      <description>この記事では、Lip Glossでできること、その方法をざっくり紹介します。
-Lip Gloss(lipgloss) とは Lip Glossは、Goで書かれたTUI用のスタイリングライブラリです。 以下のような装飾をターミナルのテキストに適用できます。
-Lip GlossのGitHubリポジトリより引用
-以下のような項目のスタイリングに対応しています。
-文字色 背景色 文字寄せ 文字囲み 特定幅での折返し などなど&amp;hellip; 以前紹介したBubble Teaを提供しているCharmというチームが開発しています。 そのため、Bubble Teaを用いたTUIアプリのスタイリングに凝りたい場合、Lip Glossが第一候補になります。
-うまく使いこなすと、こんな感じのアプリを作れます。 (GitHubのリポジトリを検索するTUIアプリ)
-Lip Glossの各機能の紹介 できることと、そのコード例をセットで紹介します。
-Style型 Style型はlipglossのメインの型です。 メソッドチェインでスタイルを設定します。 Renderメソッドを呼び出すと、渡した文字列にスタイルが適用されます。
-(各スタイルについては後述します)
-fmt.Println(&amp;#34;# lipglossでは、style型を使って文字列を装飾します&amp;#34;) var style = lipgloss.NewStyle(). Bold(true). Italic(true). Foreground(lipgloss.Color(&amp;#34;#0079FF&amp;#34;)). Background(lipgloss.Color(&amp;#34;#F6FA70&amp;#34;)). Width(40). Align(lipgloss.Center) fmt.Println(&amp;#34;## style型のRenderメソッドに文字列を渡すと、装飾された文字列が返ります&amp;#34;) fmt.Println(style.Render(&amp;#34;Hello, lipgloss!&amp;#34;)) 結果はこのようになります。
-文字、背景色の設定 Color型はlipglossで色を表現する型です。 Style型のForegroundメソッド、Backgroundメソッドに渡すことで、文字色、背景色を設定できます。
-基本的にはカラーコードで指定するとエディタのハイライトが効いたりと便利ですが、ANSIの4bit, 8bitカラーも使えます。
-fmt.Println(&amp;#34;# lipglossを使って文字、背景に色をつけることができます&amp;#34;) fmt.Println(&amp;#34;## Color型を使って色を作成できます&amp;#34;) blue := lipgloss.Color(&amp;#34;#0079FF&amp;#34;) // 24bitカラー以外にも、4bit, 8bitのカラーも使えます // lipgloss.Color(&amp;#34;5&amp;#34;) fmt.Println(&amp;#34;## style型のForeground, Backgroundメソッドには、Color型で色を指定します&amp;#34;) fmt.Println( lipgloss.</description>
-    </item>
-    
-    <item>
-      <title>簡単にTUIが作れる！Bubble Teaのススメ(アーキテクチャ編)</title>
-      <link>https://tbistr.github.io/posts/tech/introduce_bubbletea/</link>
-      <pubDate>Mon, 14 Aug 2023 20:58:51 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/introduce_bubbletea/</guid>
-      <description>Bubble Teaは、TUIを作成するためのGo言語のライブラリです。この記事では、Bubble Teaのアーキテクチャを紹介します。</description>
-    </item>
-    
-    <item>
-      <title>Linux Short Course</title>
-      <link>https://tbistr.github.io/posts/tech/linux_short_course/</link>
-      <pubDate>Fri, 16 Jun 2023 07:05:41 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/linux_short_course/</guid>
-      <description>個人的にLinuxをお勉強する上での最短ルートを考えてみた。</description>
-    </item>
-    
+    <lastBuildDate>Mon, 05 Jun 2023 23:26:39 +0000</lastBuildDate><atom:link href="https://tbistr.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023年上半期に聞いてよかった曲</title>
       <link>https://tbistr.github.io/posts/music/2023h1-my-best-hits/</link>
@@ -57,100 +18,6 @@ fmt.Println(&amp;#34;# lipglossを使って文字、背景に色をつけるこ�
       
       <guid>https://tbistr.github.io/posts/music/2023h1-my-best-hits/</guid>
       <description>2023年上半期で、良かった曲を紹介します。知ってる情報は簡単に補足してます。</description>
-    </item>
-    
-    <item>
-      <title>Type aliasの使い所を提案</title>
-      <link>https://tbistr.github.io/posts/tech/golang_typealias/</link>
-      <pubDate>Mon, 06 Mar 2023 21:04:34 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/golang_typealias/</guid>
-      <description>Go言語の謎機能である、Type aliasの使い所を説明</description>
-    </item>
-    
-    <item>
-      <title>Go言語で独自エラーを実装するときの実例(ライブラリ編)</title>
-      <link>https://tbistr.github.io/posts/tech/golang_error_impl/</link>
-      <pubDate>Mon, 21 Nov 2022 04:49:26 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/golang_error_impl/</guid>
-      <description>概要 Goでライブラリを作るとき、呼び出し元でどのようにエラーハンドリングするか想像して実装することが出来ていますか? この記事では、minimalなサンプルを提示し、Goでの独自エラー実装について紹介します。
-TODO: Asについては、僕がユースケースを理解できていないので書いていません。
-前提 Goの文法は分かっているということを仮定します。
-ライブラリ利用者側から見たGoのエラー処理について ご存知の通り、Goには高級?なエラー処理機構がありません。 関数が正常に終了したかどうかは、if文によって判定します。
-func someFunc() error {...} err := someFunc() if err != nil { // 何か処理 } また、errorインターフェースの定義は以下のようになっていて、.Error()によって出力する文字列を作成できれば、どんなものでもerror型として扱うことが出来ます。
-type error interface{ Error() string } そのため、ライブラリ作成者には独自エラーの構造体に対して、Error() stringを実装することが要求されます。
-type myError struct{ // some member } func (err *myError) Error() string{ return &amp;#34;&amp;#34; } Unwrapの利用 上記のような独自エラーには、エラーが起こった原因となるエラーが何か判別出来ないという欠点がありました。 (正確には、判別のための標準的なインターフェースがなかった。)
-Go1.13以降、エラー原因の特定インターフェースとして、errors.Unwrap(err) errorという関数が使えます。 これによって、ライブラリ使用者はエラーを引き起こしたエラーを取得することが出来ます。
-err := someFunc() if err != nil { inner := errors.Unwrap(err) fmt.Printf(&amp;#34;内部エラーはこれ: %v&amp;#34;, inner) } Isの利用 エラー原因特定のユースケースとして、エラー種別によって処理を分けるというケースがあります。 このとき、エラーの原因の原因の原因&amp;hellip;のようにエラーが連鎖的にwrapされている場合、あるエラーと、その原因となったエラーの種別が同じものかを判定する必要があります。</description>
-    </item>
-    
-    <item>
-      <title>DockerComposeで環境変数のエイリアスを作りたい</title>
-      <link>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</link>
-      <pubDate>Tue, 23 Aug 2022 12:10:26 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/docker-compose%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84/</guid>
-      <description>経緯 相変わらずDocker上のMySQLをいじっている。
-MySQLサーバに対して、毎回コンテナに入ってmysqlプロンプトを出してコマンドを打つのがめんどくさいので、webベースのGUIサーバを追加することにした。 このとき、.envで指定しているMySQL用のユーザ情報について、同じ値を別の名前で環境変数として指定する必要があった。
-環境 docker-composeファイルは以下の通り。
-version: &amp;#39;3.8&amp;#39; services: db: container_name: db image: mysql:8.0 environment: - LANG=ja_JP.UTF-8 tty: true volumes: - type: volume source: test_volume target: /var/lib/mysql networks: - test_network volumes: test_volume: name: test_volume networks: test_network: external: true .envはこの内容。
-MYSQL_DATABASE=test_database MYSQL_USER=test_user MYSQL_PASSWORD=password MYSQL_ROOT_PASSWORD=root_password 課題 今の環境に、phpmyadminというMySQLのGUIツールを新しいサービスとして導入する。 具体的に以下の内容を追加したい。
-db-gui: container_name: db-gui image: phpmyadmin/phpmyadmin environment: - LANG=ja_JP.UTF-8 tty: true ports: - 8080:80 depends_on: - db networks: - test_network このとき、phpmyadminコンテナには環境変数PMA_HOSTS, PMA_USER, PMA_PASSWORDを渡して接続先と認証の情報を教える必要がある。 しかし、PMA_HOSTSはサービス名(db)を直書きすれば良いとして(networkが設定されてるので、サービス名←→アドレスができる)、他の2つの値は.envのMYSQL_USER, MYSQL_PASSWORDと同一である。</description>
-    </item>
-    
-    <item>
-      <title>MySQLのチュートリアルでコケた</title>
-      <link>https://tbistr.github.io/posts/tech/mysql_tutorial/</link>
-      <pubDate>Fri, 19 Aug 2022 13:48:10 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/mysql_tutorial/</guid>
-      <description>流れ 今作ってるbotでMySQLを使いたくなったので、使ってみる。 作ってるのはhttps://github.com/tbistr/gs-linker。
-参考 MySQLのチュートリアルサイト? https://www.mysqltutorial.org/getting-started-with-mysql/ を参考にした。
-環境はVagrantで作った。 Boxはbento/ubuntu-20.04。
-インストール チュートリアルサイトでのインストールの手順では、 sudo mysql_secure_installationでどんなパスワードを設定しても
-... Failed! Error: SET PASSWORD has no significance for user &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; as the authentication method used doesn&amp;#39;t store authentication data in the MySQL server. Please consider using ALTER USER instead if you want to change authentication parameters. のエラーで失敗する。
-そのため、sudo mysql_secure_installationの前に、
-sudo mysql mysql&amp;gt; ALTER USER &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED WITH mysql_native_password BY &amp;#39;適当なパスワード&amp;#39;; mysql&amp;gt; exit を実行した。
-あとは手順通り、すべてyでOK。
-一応確認、
-sudo mysql -u root -p mysql&amp;gt; show databases; +--------------------+ | Database | +--------------------+ | information_schema | | mysql | | performance_schema | | sys | +--------------------+ 4 rows in set (0.</description>
-    </item>
-    
-    <item>
-      <title>Virtualbox Manager (GUI)が起動しないバグと解決方法</title>
-      <link>https://tbistr.github.io/posts/tech/vb_usb_bug/</link>
-      <pubDate>Tue, 26 Apr 2022 07:35:27 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/vb_usb_bug/</guid>
-      <description>virtualboxが起動しないバグに1年くらい苦しめられたが、USBデバイスが原因であることがわかった。</description>
-    </item>
-    
-    <item>
-      <title>texlive2021の最強環境を作ったよ</title>
-      <link>https://tbistr.github.io/posts/tech/tex_devcontainer/</link>
-      <pubDate>Fri, 14 Jan 2022 05:20:52 +0000</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/tex_devcontainer/</guid>
-      <description>texlive2-21のdockerイメージを作成し、devcontainerとして使えるようにしました。</description>
-    </item>
-    
-    <item>
-      <title>Vagrantでデスクトップ環境はいらないけど、GUIアプリを使いたい</title>
-      <link>https://tbistr.github.io/posts/tech/vagrant_x11/</link>
-      <pubDate>Sat, 18 Dec 2021 17:01:15 +0900</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/vagrant_x11/</guid>
-      <description>x11 clientをVagrantで立てたubuntu VMに設定し、windows上のx11 serverで描画させます。</description>
-    </item>
-    
-    <item>
-      <title>hugoお試ししてみた。</title>
-      <link>https://tbistr.github.io/posts/tech/hugo_hands_on/</link>
-      <pubDate>Tue, 23 Nov 2021 09:09:26 +0900</pubDate>
-      
-      <guid>https://tbistr.github.io/posts/tech/hugo_hands_on/</guid>
-      <description>hugo &#43; github pagesで静的サイト公開してみる。</description>
     </item>
     
     <item>
