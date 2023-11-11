@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tbistr.github.io/posts/book/golang_100tips/</loc>
+    <lastmod>2023-11-11T16:55:54+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/categories/book-review/</loc>
+    <lastmod>2023-11-11T16:55:54+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/categories/</loc>
+    <lastmod>2023-11-11T16:55:54+00:00</lastmod>
+  </url><url>
     <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2023-10-26T15:31:27+00:00</lastmod>
+    <lastmod>2023-11-11T16:55:54+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/</loc>
-    <lastmod>2023-10-26T15:31:27+00:00</lastmod>
+    <lastmod>2023-11-11T16:55:54+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/quit-tech-blog/</loc>
     <lastmod>2023-10-26T15:31:27+00:00</lastmod>
@@ -24,8 +33,6 @@
     <lastmod>2021-11-23T05:13:12+09:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/archives/</loc>
-  </url><url>
-    <loc>https://tbistr.github.io/categories/</loc>
   </url><url>
     <loc>https://tbistr.github.io/search/</loc>
   </url><url>
