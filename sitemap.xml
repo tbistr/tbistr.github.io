@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tbistr.github.io/posts/mac-os-karabiner/</loc>
-    <lastmod>2023-12-17T12:41:22+00:00</lastmod>
-  </url><url>
     <loc>https://tbistr.github.io/posts/</loc>
-    <lastmod>2023-12-17T12:41:22+00:00</lastmod>
+    <lastmod>2023-12-18T15:27:31+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/</loc>
+    <lastmod>2023-12-18T15:27:31+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/wall-and-eggs/</loc>
+    <lastmod>2023-12-18T15:27:31+00:00</lastmod>
+  </url><url>
+    <loc>https://tbistr.github.io/posts/mac-os-karabiner/</loc>
     <lastmod>2023-12-17T12:41:22+00:00</lastmod>
   </url><url>
     <loc>https://tbistr.github.io/posts/book/golang_100tips/</loc>
