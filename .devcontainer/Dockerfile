@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/base:debian-11
+FROM mcr.microsoft.com/devcontainers/javascript-node:20-buster
 
 # install fish terminal
 RUN apt-get update && apt-get install -y \
@@ -6,25 +6,19 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # install golang
+# need for hugo modules
 ARG GO_VERSION=1.20.1
-RUN set -x \
-    && curl -fsSL "https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz" | tar -xz -C /usr/local
+RUN wget "https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz" && \
+    tar -C /usr/local -xzf "go${GO_VERSION}.linux-amd64.tar.gz" && \
+    rm "go${GO_VERSION}.linux-amd64.tar.gz"
 ENV PATH $PATH:/usr/local/go/bin
 ENV PATH $PATH:/home/vscode/go/bin
 
-ENV HUGO_VER=0.111.2
-USER vscode
-RUN CGO_ENABLED=1 go install --tags extended github.com/gohugoio/hugo@v${HUGO_VER}
-
-USER root
-RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive \
-    apt-get install -y \
-    nodejs npm && \
-    npm install -g n && \
-    n stable && \
-    apt-get purge -y nodejs npm && \
-    rm -rf /var/lib/apt/lists/*
+# install hugo
+ARG HUGO_VER=0.121.1
+RUN wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER}/hugo_${HUGO_VER}_linux-amd64.tar.gz && \
+    tar -C /usr/local/bin -xzf hugo_${HUGO_VER}_linux-amd64.tar.gz && \
+    rm hugo_${HUGO_VER}_linux-amd64.tar.gz
 
 RUN npm install -g \
     textlint \
