@@ -1,5 +1,5 @@
 baseURL: "https://tbistr.github.io/"
-title: Tbistr blog
+title: "坪井正太郎の文章置き場"
 paginate: 10
 theme: github.com/adityatelange/hugo-PaperMod
 
@@ -61,8 +61,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "tbistr's blog"
-    author: tbistr
+    description: "Shotaro's blog"
+    author: TSUBOI Shotaro
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -91,12 +91,8 @@ params:
     #           url: tags
 
     homeInfoParams:
-        Title: "Tbistr"
-        Content: >
-            名古屋大学情報学研究科の院生です。
-
-            - 個人的な記録、メモを載せます。
-
+        Title: "坪井正太郎の文章置き場"
+        Content: "Twitterに書くには余白が足りないやつ"
     socialIcons:
         - name: github
           url: "https://github.com/tbistr"
