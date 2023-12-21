@@ -98,6 +98,8 @@ params:
           url: "https://github.com/tbistr"
         - name: twitter
           url: "https://twitter.com/tbistr99"
+        - name: "zenn"
+          url: "https://zenn.dev/tbistr"
 
     editPost:
         URL: "https://github.com/tbistr/content"
